@@ -30,6 +30,7 @@ public class Main {
         lector.close();
 
         for (int i = 0; i < e.length; i++) {
+            if (e[i] == null) break;
             System.out.println(e[i].getDni());
             System.out.println(e[i].getApellido());
             System.out.println(e[i].getNombre());
